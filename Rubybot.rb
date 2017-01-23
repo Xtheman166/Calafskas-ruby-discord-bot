@@ -137,6 +137,10 @@ bot.command(:say) do |event|
   event.user.respond.message
 end
 
+bot.command(:Source) do |event|
+  event.respond 'https://github.com/Calafska/Calafskas-ruby-discord-bot'
+end
+
 
 # Music
 
